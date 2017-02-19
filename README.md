@@ -2,10 +2,11 @@
 
 ### Mazer ###
 
-Mazer is a program that allow you to generate mazes by using Aldous-Broder algorithm
-and the mersene twister algorithm for pseudorandom numbers.
+Mazer is a program that allow you to generate and solve mazes by using different algorithms
+The mersene twister algorithm is used for pseudorandom numbers.
+Any Maze can be save in a binary file or a svg file.
 
-A diagram of the classes is available in the data folder.
+A diagram (not updated since solve exists) of the classes is available in the data folder.
 
 ### How do I get set up? ###
 
