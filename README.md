@@ -34,10 +34,14 @@ To see how to use the program you can run ./mazer without any arguments.
 
     ./mazer --lb [PARAMS] --sv [PARAMS]
 
-* --g [seed] [width] [height] <-- Optional parameters, Generate Maze
+* --g(a|e) [seed] [width] [height] <-- Optional parameters, Generate Maze with Aldous-Broder (ga) or Euler(ge)
 * --sb [filename.maze] <-- Save maze in binary code into filename.maze
 * --sv [filename.svg] <-- Save maze in svg into filename.svg
 * --lb [filename.maze] <-- Load Maze from binary file "filename.maze"
+* --pm solve the maze using A* with Manhattan Heuristic
+* --pe solve the maze using A* with Euclidean Heuristic
+* --pd Solve the maze using DepthFirst search
+* --pb Solve the maze using BreadthFrist search
 
 ### Contribution guidelines ###
 
