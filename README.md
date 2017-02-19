@@ -29,11 +29,11 @@ To see how to use the program you can run ./mazer without any arguments.
 
 ## USAGE ORDER : ##
 
-    ./mazer --g [PARAMS] --sb [PARAMS] --sv [PARAMS]
+    ./mazer --g(a|e) [PARAMS] --sb [PARAMS] --sv [PARAMS] --p(m|e|d|b)
 
 ## OR : ##
 
-    ./mazer --lb [PARAMS] --sv [PARAMS]
+    ./mazer --lb [PARAMS] --sv [PARAMS] --p(m|e|d|b)
 
 * --g(a|e) [seed] [width] [height] <-- Optional parameters, Generate Maze with Aldous-Broder (ga) or Euler(ge)
 * --sb [filename.maze] <-- Save maze in binary code into filename.maze
